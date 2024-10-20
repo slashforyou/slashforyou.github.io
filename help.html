@@ -1,0 +1,37 @@
+<!-- Page d'aide avec un formulaire de contact et des réponse à des questions types sur Altivo Application de découverte de villes -->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aide</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Altivo - Aide</h1>
+        </div>
+        <div class="content">
+            <h2>FAQ</h2>
+            <h3>Comment créer un compte ?</h3>
+            <p>Pour créer un compte, cliquez sur le bouton "Je n'ai pas encore de compte" en dessous dessous du formulaire de connexion. Vous devrez ensuite remplir un formulaire avec votre nom, prénom, adresse e-mail et mot de passe.</p>
+            <h3>Comment réinitialiser mon mot de passe ?</h3>
+            <p>Si vous avez oublié votre mot de passe, cliquez sur le lien "Mot de passe oublié" sur la page de connexion. Vous recevrez un e-mail avec un lien pour réinitialiser votre mot de passe.</p>
+            <h3>Comment contacter le support technique ?</h3>
+            <p>Vous pouvez contacter notre support technique en remplissant le formulaire de contact ci-dessous. Nous vous répondrons dans les plus brefs délais.</p>
+            <h2>Formulaire de contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+        <div class="footer">
+            <p>2024 - Altivo - Découvrez en vous amusant</p>
+        </div>
+    </body>
+</html>
